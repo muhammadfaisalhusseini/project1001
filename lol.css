@@ -34,7 +34,16 @@ body {
 	height:300px;
 }
 .login h1 { color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; }
-
+.form {
+  position: relative;
+  z-index: 1;
+  background: #000;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
 input { 
 	width: 100%; 
 	margin-bottom: 10px; 
